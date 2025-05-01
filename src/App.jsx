@@ -17,7 +17,21 @@ function App() {
       <button name='reset' onClick={() => setCurrScore(0)}>Reset</button>
       <p>Score: {currScore}</p>
       <p>Best Score: {bestScore}</p>
-      <Card />
+
+      <div id='game-board'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </>
   )
 }
