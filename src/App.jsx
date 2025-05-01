@@ -1,5 +1,6 @@
 import './App.css'
 import { useState } from 'react'
+import Card from './components/Card';
 
 function App() {  
   const [bestScore, setBestScore] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <button name='reset' onClick={() => setCurrScore(0)}>Reset</button>
       <p>Score: {currScore}</p>
       <p>Best Score: {bestScore}</p>
+      <Card />
     </>
   )
 }
