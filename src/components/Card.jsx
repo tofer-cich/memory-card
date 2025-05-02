@@ -1,7 +1,7 @@
-function Card({ id, name, imgUrl, setSelectedId }) {
+function Card({ id, name, imgUrl, handleClick }) {
     return (
         //use id here
-        <div className="card" onClick={e => setSelectedId(id)}> 
+        <div className="card" onClick={e => handleClick(id)}> 
             <div className="card-picture">
                 <img src={imgUrl}></img>
             </div>
