@@ -1,7 +1,7 @@
-function Card({ name, imgUrl }) {
-    console.log("imgUrl: " + imgUrl);
+function Card({ id, name, imgUrl, setSelectedId }) {
     return (
-        <div className="card">
+        //use id here
+        <div className="card" onClick={e => setSelectedId(id)}> 
             <div className="card-picture">
                 <img src={imgUrl}></img>
             </div>

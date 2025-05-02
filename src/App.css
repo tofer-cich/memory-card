@@ -58,19 +58,33 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: #b3a125;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
   margin: 0;
   border-radius: 20px;
+  justify-content: space-between;
+  transition: width .1s, height .1s;
+}
+
+.card:hover {
+  box-shadow: 0 0 50px -10px red;
+  width: 101%;
+  height: 101%;
 }
 
 .card-picture {
-  width: 80%;
-  height:50%;
-  background-color: black;
+  width: 100%;
   box-sizing: border-box;
+  justify-content: center;
+}
+
+img {
+  width:100%;
+  height: auto;
 }
 
 #game-board {
@@ -84,7 +98,7 @@ body {
 }
 
 h1 {
-  margin: 1rem;
+  margin-bottom: 1rem;
   color: #ff0000;
   -webkit-text-stroke: 2px black;
 }
@@ -93,7 +107,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
-  color: black;  
+  color: black;
+  margin-bottom: 1rem;
 }
 
 .score-board {
