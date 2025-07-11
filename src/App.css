@@ -129,7 +129,8 @@ img {
 h1 {
   margin-bottom: 1rem;
   color: #ff0000;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 3px black;
+  paint-order: stroke fill;
 }
 
 .header {
