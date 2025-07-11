@@ -62,13 +62,14 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 10rem;
-    max-width: 12rem;
+    max-width: 15rem;
     flex: 1 1 auto;
     box-sizing: border-box;
     margin: 0;
     align-content: center;
     transition: width .1s, height .1s;
     overflow: hidden;
+    font-size: 85%;
   }
 }
 
