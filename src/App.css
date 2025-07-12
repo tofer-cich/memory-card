@@ -116,7 +116,6 @@ img {
     gap: 1rem;
     padding: 1vh 1vw;
     box-sizing: border-box;
-    border: 1px red solid;
   }
 
   @media (max-width: 1023px) {
